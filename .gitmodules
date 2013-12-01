@@ -1,4 +1,4 @@
 
 [submodule "lib/SlickGrid"]
 	path = lib/SlickGrid
-	url = git@github.com:taskputty/meteor-slickgrid.git
+	url = git@github.com:taskputty/slickgrid.git
