@@ -8,8 +8,8 @@ Package.on_use(function (api) {
       'lib/SlickGrid/slick-default-theme.css',
       'lib/SlickGrid/slick.grid.css',
 
-      'lib/jquery.event.drag.js',
-      'lib/jquery.event.drop.js',
+      'lib/SlickGrid/lib/jquery.event.drop-2.2.js',
+      'lib/SlickGrid/lib/jquery.event.drag-2.2.js',
 
       'lib/SlickGrid/slick.core.js',
       'lib/SlickGrid/slick.dataview.js',
