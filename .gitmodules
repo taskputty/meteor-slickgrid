@@ -1,4 +1,4 @@
 
 [submodule "lib/SlickGrid"]
 	path = lib/SlickGrid
-	url = https://github.com/taskputty/SlickGrid.git
+	url = git@github.com:mleibman/SlickGrid.git
