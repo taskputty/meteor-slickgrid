@@ -26,6 +26,8 @@ Package.on_use(function (api) {
       'lib/SlickGrid/plugins/slick.cellrangeselector.js',
       'lib/SlickGrid/plugins/slick.cellcopymanager.js',
       'lib/SlickGrid/plugins/slick.cellrangedecorator.js',
+      'lib/SlickGrid/plugins/slick.rowselectionmodel.js',
+      'lib/SlickGrid/plugins/slick.checkboxselectcolumn.js',
 
       'lib/SlickGrid/images/header-columns-bg.gif',
       'lib/SlickGrid/images/header-columns-over-bg.gif'
