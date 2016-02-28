@@ -1,7 +1,8 @@
 Package.describe({
   summary: "SlickGrid package for meteor",
   name: 'taskputty:slickgrid',
-  version: '0.0.1'
+  version: '0.0.2',
+  git: 'https://github.com/taskputty/meteor-slickgrid/tree/tp-v2'
 });
 
 Package.on_use(function (api) {
