@@ -1,8 +1,11 @@
 Package.describe({
-  summary: "SlickGrid package for meteor"
+  summary: "SlickGrid package for meteor",
+  name: 'taskputty:slickgrid',
+  version: '0.0.1'
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom("METEOR@0.9.0");
   api.use('jquery', 'client');
   api.add_files([
       'lib/SlickGrid/slick-default-theme.css',
@@ -27,11 +30,16 @@ Package.on_use(function (api) {
       'lib/SlickGrid/plugins/slick.cellcopymanager.js',
       'lib/SlickGrid/plugins/slick.cellrangedecorator.js',
       'lib/SlickGrid/plugins/slick.rowselectionmodel.js',
-      'lib/SlickGrid/plugins/slick.checkboxselectcolumn.js',
+      'lib/SlickGrid/plugins/slick.checkboxselectcolumn.js'
 
-      'lib/SlickGrid/images/header-columns-bg.gif',
-      'lib/SlickGrid/images/header-columns-over-bg.gif'
     ]
     ,'client'
   );
+
+  api.addAssets([
+
+      'lib/SlickGrid/images/header-columns-bg.gif',
+      'lib/SlickGrid/images/header-columns-over-bg.gif'
+
+  ], 'client');
 });
